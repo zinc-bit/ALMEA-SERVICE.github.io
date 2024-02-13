@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/Screenshot 2023-11-22 161333.png">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+
+
+
+ <title>ALMEA SERVICE</title>
+</head>
+<body>
+  
+  <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="images/Screenshot 2023-11-22 161333.png" alt="logo"> ALMAE SERVICE
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#program" class="nav__link">Program</a>
+              </li>
+              <li class="nav__item">
+                <a href="#aboutus" class="nav__link">About Us</a>
+              </li>
+              <li class="nav__item">
+                <a href="#lights" class="nav__link">Highlights</a>
+              </li>
+              <li class="nav__item">
+                <a href="#pricing" class="nav__link">Pricing</a>
+              </li>
+              
+              <div class="nav__link">
+                <a href="#" class="button nav__button" onclick="openPopup()">Log in</a>
+              </div>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-fill"></i>
+            </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h2 class="home__subtitle">PILOT SERVICE</h2>
+          <h1 class="home__title">NEW GAME<br>EVERYDAY.</h1>
+          <p class="home__description">We are here to help you improve and level up your account to your desired rank!
+          </p>
+          <a href="#pricing" class="button button__flex">
+            Get Started <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="home__images">
+          <img src="images/homeimage-removebg-preview.png" class="homeimg" alt="home image">
+
+          <div class="home__triangle home__triangle-3"></div>
+          <div class="home__triangle home__triangle-2"></div>
+          <div class="home__triangle home__triangle-1"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="program section" id="program">
+       <div class="container">
+         <div class="section__data">
+          <h2 class="section__subtitle">OUR SERVICES</h2>
+          <div class="section__titles">
+            <h1 class="section__title-border">LEVEL UP YOUR<br>ACCOUNT</h1>
+        
+          </div>
+         </div>
+
+         <div class="program__container grid">
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="images/mlLogo-removebg-preview.png" alt="program image" class="program__img">
+              
+            </div>
+
+            <h3 class="program__title">Mobile Legend Service</h3>
+
+            <p class="program__description">
+              More Wins, More Stars!
+            </p>
+
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="images/codlogo-removebg-preview.png" alt="program image" class="program__img">
+            </div>
+
+            <h3 class="program__title">Call Of Duty Mobile Service</h3>
+            
+            <p class="program__description">
+              Lost your aim? We got you covered!
+            </p>
+
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="images/lolllogo-removebg-preview.png" alt="program image" class="program__img">
+            </div>
+
+            <h3 class="program__title">League of legends Service</h3>
+
+            <p class="program__description">
+              Hard carrying is what our crew are best at!
+            </p>
+
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="images/valo-removebg-preview.png" alt="program image" class="program__img">
+            </div>
+
+            <h3 class="program__title">Valorant Service</h3>
+
+            <p class="program__description">
+              Let us handle aiming those heads!  
+            </p>
+            
+
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+         </div>
+       </div>
+    </section>
+
+
+    <!---About us-->
+    <section class="About__us" id="aboutus">
+      
+      <main class="main">
+        <container class="About__Us">
+          
+          <div class="about_us_subtitle">
+            <h1>Meet Our team</h1>
+          </div>
+    
+        <br> <br>
+    
+    
+          <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="image-container">
+                <img src="images/EDD.png" alt="Portrait Image 1">
+              </div>
+              <div class="name-container">
+                Edcel Capuyan
+              </div>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="image-container">
+                <img src="images/cedrick.jpg" alt="Portrait Image 2">
+              </div>
+              <div class="name-container">
+                Cedrick De La Cruz
+              </div>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="image-container">
+                <img src="images/Oritz.jpg" alt="Portrait Image 3">
+              </div>
+              <div class="name-container">
+                Angelo Ortiz
+              </div>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          
+            <!-- Card 4 -->
+            <div class="card">
+              <div class="image-container">
+                <img src="images/marlo.jpg" alt="Portrait Image 4">
+              </div>
+              <div class="name-container">
+                Marlo Beruno
+              </div>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          
+            <!-- Card 5 -->
+            <div class="card">
+              <div class="image-container">
+                <img src="images/alejandro.jpg" alt="Portrait Image 5">
+              </div>
+              <div class="name-container">
+                Alejandro Cruz  
+              </div>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+    
+        <div class="aboutus__descript"><br>
+           <div class="whychooseus"><h1>Why Choose Us?</h1></div><br>
+            <div class="whychooseus_descript"><p>&nbsp; &nbsp; Our team provides the best services and fulfill the needs and satisfaction of every gamer. Each one of us have unique skills and experiences that can help you to achieve your desired rank!<br><br>&nbsp; &nbsp; We ensure you that your accounts are secured and protected. We have strict compliance in protecting your data for a worry-less experience.<br><br> &nbsp;&nbsp; As we are passionate in this industry, we are also dedicated in commitment and assistance towards our customer’s demand.<br><br> &nbsp;&nbsp; We support different platforms that gamers may need and we offer a wide range of piloting services that caters whether it is Mobile Legends, League of Legends, Call of Duty, or Valorant. </p></div>
+           
+        </div>
+        </container>
+    
+    </section>
+    
+    
+  
+    
+    <div class="section__data" id="lights">
+      <h2 class="section__subtitle">HIGHLIGHTS</h2>
+    </div>
+    <section class="highlightsvid" id="highlights">
+      </div>
+
+     
+
+      <div class="contianer_high" id="contianer_high">
+        <div class="gradient-box">
+          <video autoplay loop muted controls>
+            <source src="images/ML.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Mobile Legends</h3>
+        </div>
+        <div class="gradient-box">
+          <video autoplay loop muted controls>
+            <source src="images/shiva.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>&nbsp;&nbsp;Call of Duty</h3>
+        </div>
+      </div>
+
+      <div class="contianer_high" id="contianer_high">
+        <div class="gradient-box">
+          <video autoplay loop muted controls>
+            <source src="images/LOLHIGHLIGHT.mp4 " type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>League of Legends</h3>
+        </div>
+        <div class="gradient-box">
+          <video autoplay loop muted controls>
+            <source src="images/yt1s.com - 25 MINUTES OF INSANE SOLO ACES VALORANT (online-video-cutter.com).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valorant</h3>
+        </div>
+        </div>
+      </div>
+
+      </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="container">
+          <div class="section__data">
+            <h2 class="section__subtitle">PRICING</h2>
+            <div class="section__titles">
+              <h1 class="section__title-border">GAME PACKAGES</h1>
+          
+            </div>
+          </div>
+
+          <div class="pricing__container grid">
+             <article class="pricing__card pricing__card-active">
+                <header class="pricing__header">
+                   <div class="pricing__shape">
+                    <img src="images/mlLogo-removebg-preview.png" alt="program image" class="program__img">
+                   </div>
+
+                   <h1 class="pricing__title">MOBILE LEGENDS PACKAGE</h1>
+                   <h2 class="pricing__number"> ₱99</h2>
+                </header>
+
+                <ul class="pricing__list">
+                  <li class="pricing__items">
+                    <i class="ri-checkbox-circle-line"></i> ₱39 per star
+                  </li>
+                  <li class="pricing__items pricing__item-opacity">
+                    <i class="ri-checkbox-circle-line"></i> ₱99 for 3 star
+                </ul>
+
+                <a href="main1.html" class="button button__flex pricing__button">
+                  Purchase Now <i class="ri-arrow-right-line"></i>
+                </a>
+             </article>
+
+             <article class="pricing__card">
+              <header class="pricing__header">
+                 <div class="pricing__shape">
+                  <img src="images/codlogo-removebg-preview.png" alt="program image" class="program__img">
+                 </div>
+
+                 <h1 class="pricing__title">CALL OF DUTY MOBILE PACKAGE</h1>
+                 <h2 class="pricing__number"> ₱99</h2>
+              </header>
+
+              <ul class="pricing__list">
+                <li class="pricing__items pricing__item-opacity">
+                  <i class="ri-checkbox-circle-line"></i> ₱39 per star
+                </li>
+                <li class="pricing__items">
+                  <i class="ri-checkbox-circle-line"></i> ₱99 for 3 star
+              </ul>
+
+              <a href="" class="button button__flex pricing__button">
+                Purchase Now <i class="ri-arrow-right-line"></i>
+              </a>
+           </article>
+
+           <article class="pricing__card pricing__card-active">
+            <header class="pricing__header">
+               <div class="pricing__shape">
+                <img src="images/lolllogo-removebg-preview.png" alt="program image" class="program__img">
+               </div>
+
+               <h1 class="pricing__title">LEAGUE OF LEGENDS PACKAGE</h1>
+               <h2 class="pricing__number"> ₱99</h2>
+            </header>
+
+            <ul class="pricing__list">
+              <li class="pricing__items pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i> ₱39 per star
+              </li>
+              <li class="pricing__items">
+                <i class="ri-checkbox-circle-line"></i> ₱99 for 3 star
+            </ul>
+
+            <a href="" class="button button__flex pricing__button">
+              Purchase Now <i class="ri-arrow-right-line"></i>
+            </a>
+         </article>
+
+         <article class="pricing__card">
+          <header class="pricing__header">
+             <div class="pricing__shape">
+              <img src="images/valo-removebg-preview.png" alt="program image" class="program__img">
+             </div>
+
+             <h1 class="pricing__title">VALORANT PACKAGE</h1>
+             <h2 class="pricing__number"> ₱99</h2>
+          </header>
+
+          <ul class="pricing__list">
+            <li class="pricing__items">
+              <i class="ri-checkbox-circle-line"></i> ₱39 per star
+            </li>
+            <li class="pricing__items pricing__item-opacity">
+              <i class="ri-checkbox-circle-line"></i> ₱99 for 3 star
+          </ul>
+
+          <a href="" class="button button__flex pricing__button">
+            Purchase Now <i class="ri-arrow-right-line"></i>
+          </a>
+       </article>
+          </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="footer section" id="footer">
+     <div class="footer__container container grid">
+       <div class="thisbox">
+        <a href="#" class="footer__logo">
+           <img src="images/Screenshot 2023-11-22 161333.png" alt="">ALMAE SERVICE
+        </a>
+        <p class="footer__description">
+          Support our Website <br> updates below.
+        </p>
+
+        <form action="" class="footer__form" id="contact-form">
+           <input type="email" name="user_email" placeholder="Your Email" class="footer__input" id="contact-user">
+           <button type="submit" class="button">
+              Subscribe
+           </button>
+        </form>
+
+        <p class="footer__message" id="contact-message"></p>
+       </div>
+       
+       <div class="footer__content">
+         <div>
+            <h3 class="footer__title">
+              Our Service
+            </h3>
+
+            <ul class="footer__links">
+               <li>
+                 <a href="" class="footer__link">Mobile legend Service</a>
+               </li>
+               <li>
+                <a href="" class="footer__link">Call of duty Mobile Sevice</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">League of Legend Service</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Valorant Service</a>
+              </li>
+            </ul>
+         </div>
+         <div>
+          <h3 class="footer__title">
+            Pricing
+          </h3>
+
+          <ul class="footer__links">
+             <li>
+               <a href="" class="footer__link">Mobile Legends Package</a>
+             </li>
+             <li>
+              <a href="" class="footer__link">Call of Duty Mobile Package</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">League of Legends Package</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Valorant Package</a>
+            </li>
+          </ul>
+       </div>
+       <div>
+        <h3 class="footer__title">
+           ALMAE
+        </h3>
+
+        <ul class="footer__links">
+           <li>
+             <a href="#" class="footer__link">About us</a>
+           </li>
+           <li>
+            <a href="#" class="footer__link">Players</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Customers</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Partners</a>
+          </li>
+        </ul>
+     </div>
+       </div>
+     </div>
+
+     <div class="container">
+       <div class="footer__group">
+         <ul class="footer__social">
+          <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a href="https://www.email.com" target="_blank" class="footer__social-link">
+            <i class="ri-mail-line"></i>
+          </a>
+          <a href="https://www.github.com" target="_blank" class="footer__social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+         </ul>
+
+         <span class="footer__copy">
+            &#169; Copyright ALMAE. All rights reserved
+         </span>
+       </div>
+     </div>
+  </footer>
+
+    <!--LOGINFORM-->
+    <div id="login-popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Login</h2>
+        <!-- Add your login form here -->
+        <form>
+          <!-- Your login form fields go here -->
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+          <br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <br>
+          <div class="checkbox-container">
+            <input type="checkbox" id="remember-me" name="remember-me">
+            <label for="remember-me">Remember Me</label>
+          </div>
+          <input type="submit" value="Login">
+        </form>
+        <div class="create-account">
+          <a href="main1.html" style="color: white;">Create Account</a>
+        </div>
+      </div>
+    </div>
+
+  <!--scroll up-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!--scrollreveal-->
+  <script src="scrollreveal.min.js"></script>
+
+  <!--email js--> 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script src="main.js"></script>
+
+
+
+  
+</body>
+</html>
